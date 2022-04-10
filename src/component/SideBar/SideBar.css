@@ -1,0 +1,99 @@
+.sidebar{
+    display: flex;
+    /* background-color: yellow; */
+    flex: 1;
+    height: calc(100vh - 20px);
+    position: fixed;
+    left: 89px;
+}
+.main{
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar-pic
+{
+    background-color: yellow;
+    width: 154px;
+    border-radius: 100px;
+}
+.sidebar-pic img{
+    width: 150px;
+    border-radius: 100px;
+    margin-left: 1px;
+}
+.sidebar-heading{
+    width: 200px;
+}
+.sidebar-heading h2{
+    margin-bottom: 0px;
+    font-size: 26px;
+}
+.sidebar-para{
+    font-size: 20px;
+}
+.btn-home
+{
+    width: 282px;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: #2b2727;
+    border: none;
+    font-size: 24px;
+    margin-bottom: 23px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-about
+{
+    width: 282px;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: #2b2727;
+    border: none;
+    font-size: 24px;
+    margin-bottom: 23px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-education
+{
+    width: 282px;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: #2b2727;
+    border: none;
+    font-size: 24px;
+    margin-bottom: 23px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.btn-project
+{
+    width: 282px;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: #2b2727;
+    border: none;
+    font-size: 24px;
+    margin-bottom: 23px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.btn-contact
+{
+    width: 282px;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: #2b2727;
+    border: none;
+    font-size: 24px;
+    margin-bottom: 23px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
