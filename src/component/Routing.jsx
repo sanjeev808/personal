@@ -24,6 +24,8 @@ export default function Routing() {
             <Route path='/education' element={<Education />} />
             <Route path='/project' element={<Project />} />
             <Route path='/contact' element={<Contact />} />
+            {/* <Route path='/About/pdf' element={< />} /> */}
+
           </Routes>
         </div>
       </BrowserRouter>

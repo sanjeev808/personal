@@ -1,5 +1,9 @@
 .content{
-    margin-left: 25%;
+    margin-left: 27%;
+  
+}
+.content-about{
+    width: 1000px;
 }
 .d-flex{
     display: flex;
@@ -15,6 +19,22 @@
 }
 .justify-evenly{
     justify-content: space-evenly;
+}
+.m-10{
+    margin: 10px;
+}
+.m-20{
+    margin: 20px;
+}
+.m-30{
+    margin: 30px;
+}
+.bg-2b2727{
+    background-color: #2b2727;
+}
+.t-none
+{
+    text-decoration: none;
 }
 .main-home{
     width: 700px;
@@ -59,7 +79,7 @@
     
 }
 .main-about-box{
-    background-color: red;
+    /* background-color: red; */
     width: 500px ;
 }
 
@@ -73,7 +93,7 @@
     color: yellow;
 }
 .about-head h3{
-   margin-left: 45%;
+   margin-left: 35%;
    /* background-color: yellow; */
    color: white;
    padding: 10px;
@@ -138,14 +158,14 @@ width: 20px;
 }
 .box1{
     width: 200px;
-    padding-bottom: 150px;
-    background-color: grey;
+    padding-bottom: 40px;
+    background-color: #2b2727;
    
 }
 .box2{
     width: 200px;
-    padding-bottom: 150px;
-    background-color: grey;
+    padding-bottom: 40px;
+    background-color: #2b2727;
     margin-left: 40px;
 }
 .about-boxe2
@@ -154,12 +174,23 @@ width: 20px;
 }
 .box3{
     width: 200px;
-    padding-bottom: 150px;
-    background-color: grey;
+    padding-bottom: 40px;
+    background-color: #2b2727;
 }
 .box4{
     width: 200px;
-    padding-bottom: 150px;
-    background-color: grey;
+    padding-bottom: 40px;
+    background-color: #2b2727;
     margin-left: 40px;
+}
+.month{
+    background-color: #2b2727;
+    text-align: center;
+}
+.experience{
+    background-color: #2b2727;
+    text-align: center;
+}
+.experience span{
+    background-color: #2b2727;
 }
