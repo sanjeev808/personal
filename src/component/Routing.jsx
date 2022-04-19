@@ -16,17 +16,22 @@ export default function Routing() {
   return (
     <>
       <BrowserRouter>
-        <div style={{ display: "flex" }}>
-          <SideBar />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/education' element={<Education />} />
-            <Route path='/project' element={<Project />} />
-            <Route path='/contact' element={<Contact />} />
-            {/* <Route path='/About/pdf' element={< />} /> */}
-
-          </Routes>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-4'>
+              <SideBar />
+            </div>
+            <div className='col'>
+              <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/education' element={<Education />} />
+                <Route path='/project' element={<Project />} />
+                <Route path='/contact' element={<Contact />} />
+                {/* <Route path='/About/pdf' element={< />} /> */}
+              </Routes>
+            </div>
+          </div>
         </div>
       </BrowserRouter>
     </>
